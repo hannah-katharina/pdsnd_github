@@ -11,7 +11,7 @@ This project is part of the Udacity course _Programming for Data Science with Py
 The python code analyzes the bikeshare data from three different cities and provides the user with interesting KPIs.
 
 ### Files used
-Include the files used
+The database for this project are three csv files with bikeshare data from the three analyzed cities.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
