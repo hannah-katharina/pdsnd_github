@@ -7,7 +7,8 @@ This project was published on August 6th, 2023.
 Bikeshare project by Udacity
 
 ### Description
-Describe what your project is about and what it does
+This project is part of the Udacity course _Programming for Data Science with Python_ .
+The python code analyzes the bikeshare data from three different cities and provides the user with interesting KPIs.
 
 ### Files used
 Include the files used
