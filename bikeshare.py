@@ -178,24 +178,24 @@ def user_stats(df):
     
 def display_data(df):
     RESPONSE_LIST = ['yes','no']
-    response = ''
+    answer = ''
     rows = 0
     
-    while response not in RESPONSE_LIST:
+    while answer not in RESPONSE_LIST:
         print('Do like to review the raw data? yes or no:')
-        response = input().lower()
-        if response == 'yes':
+        answer = input().lower()
+        if answer == 'yes':
             print(df.head())
-        elif response not in RESPONSE_LIST:
+        elif answer not in RESPONSE_LIST:
             print('Please write yes or no')
     
-    while response == 'yes':
+    while answer == 'yes':
         print('Would you like to see more data?')
         rows +=5
-        response = input().lower()
-        if response == 'yes':
+        answer = input().lower()
+        if answer == 'yes':
             print(df[rows:rows+5])
-        elif response != 'yes':
+        elif answer != 'yes':
             break
     
     print('-'*40)
